@@ -1,0 +1,30 @@
+{
+  "name": "puzzle8",
+  "version": "1.0.0",
+  "description": "Classic puzzle 8 game",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MezaG/puzzle8.git"
+  },
+  "keywords": [
+    "Game",
+    "Phaser",
+    "Javascript",
+    "Puzzle"
+  ],
+  "author": "Fernando Meza",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MezaG/puzzle8/issues"
+  },
+  "homepage": "https://github.com/MezaG/puzzle8#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.0.1",
+    "phaser-ce": "^2.9.1"
+  }
+}
