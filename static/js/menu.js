@@ -2,7 +2,7 @@ var menuState =
 {
 	create: function ()
 	{
-		var startLabel = game.add.text(80, 80, 'Presiona la tecla de espacio para empezar', {font: '50px Courier', fill: '#ffffff'});
+		var startLabel = game.add.text(80, 80, 'Presiona la tecla de espacio para empezar', {font: '50px RetroFont', fill: '#ffffff'});
 		// Get space key to start game
 		var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 

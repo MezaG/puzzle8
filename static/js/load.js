@@ -18,6 +18,8 @@ var loadState =
 		game.load.image('number7','static/images/assets/number7.png');
 		game.load.image('number8','static/images/assets/number8.png');
 		game.load.image('title','static/images/assets/puzzletitle.png');
+		game.load.image('board2','static/images/assets/board.png');
+		game.load.text('goal','static/data/goal.json');
 	// This will shuffle the array then proceed creating a matrix which will be the puzzle		
 		var i = array.length;
 		while(--i) 
@@ -28,7 +30,6 @@ var loadState =
 			array[i] = tempj;
 			array[j] = tempi;
 		}
-		console.log(array);	
 		// Populate the matrix with the shuffled array
 		for (let i = 0; i < matrix[0].length; i++)
 		{
@@ -37,7 +38,6 @@ var loadState =
 				matrix[i][j] = array.pop();
 			}
 		}		
-		console.log(matrix);	
 	},
 
 	create: function () 
