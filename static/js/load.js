@@ -1,4 +1,8 @@
 var sprite;
+var loadingSprite;
+var loadingBoardSprite;
+var animbs;
+var animls;
 var array = [0,1,2,3,4,5,6,7,8];
 var matrix = [[0,0,0],[0,0,0],[0,0,0]];
 var loadState = 
@@ -6,7 +10,6 @@ var loadState =
 	// The preload state to define and load assets
 	preload: function () 
 	{
-		var loadingLabel = game.add.text(80, 150, 'cargando...',{font: '30px Courier', fill: '#ffffff'});
 		game.load.spritesheet('board','static/images/assets/animatedboard.png',512,512,15);
 		game.load.image('hollow','static/images/assets/hollow.png');
 		game.load.image('number1','static/images/assets/number1.png');
@@ -40,8 +43,28 @@ var loadState =
 		}		
 	},
 
-	create: function () 
+	onCreateCallback: function () 
 	{
+		loadingSprite = game.add.sprite(615,400,'loading');
+		loadingSprite.animations.add('loadBlink');
+		loadingBoardSprite = game.add.sprite(600,250,'loadingboard');
+		loadingBoardSprite.animations.add('loadBoard');
+		loadingSprite.animations.play('loadBlink',5,true);
+		loadingBoardSprite.animations.play('loadBoard',9,true);
+		
+		// var startLabel = game.add.text(470, 550, 'Presiona la tecla de espacio para empezar', {font: '20px RetroFont', fill: '#ffffff'});
+		// // Get space key to start game
+		// var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+
+		// // When the player presses the space key start the function
+		// spaceKey.onDown.addOnce(this.start, this);
+		
+	},
+
+	create: function ()
+	{
+		// loadingSprite.animations.play('loadBlink',5,false);
+		// loadingBoardSprite.animations.play('loadBoard',5,false);
 		// Call the start menu
 		game.state.start('menu');
 	},

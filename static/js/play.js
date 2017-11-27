@@ -128,7 +128,8 @@ create: function ()
 	// The start function calls the play state
 	start: function () 
 	{
-		game.state.start('play');
+		//spaceKey.inputEnabled = false;	
+		game.state.start('resolve',clearworld = false);
 	},
 
 	update: function () 
