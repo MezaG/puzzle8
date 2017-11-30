@@ -1,8 +1,4 @@
 var sprite;
-var loadingSprite;
-var loadingBoardSprite;
-var animbs;
-var animls;
 var array = [0,1,2,3,4,5,6,7,8];
 var matrix = [[0,0,0],[0,0,0],[0,0,0]];
 var loadState = 
@@ -23,13 +19,17 @@ var loadState =
 		game.load.image('title','static/images/assets/puzzletitle.png');
 		game.load.image('board2','static/images/assets/board.png');
 		game.load.text('goal','static/data/goal.json');
+		// this.loading = game.add.sprite(615,400,'loading');
+		// this.loading.animations.add('loadBlink');
+		// this.loadingboard = game.add.sprite(600,250,'loadingboard');
+		// this.loadingboard.animations.add('loadBoard');
 	// This will shuffle the array then proceed creating a matrix which will be the puzzle		
-		var i = array.length;
+		let i = array.length;
 		while(--i) 
 		{
-			var j = Math.floor(Math.random() * ( i + 1 ) );
-			var tempi = array[i];
-			var tempj = array[j];
+			let j = Math.floor(Math.random() * ( i + 1 ) );
+			let tempi = array[i];
+			let tempj = array[j];
 			array[i] = tempj;
 			array[j] = tempi;
 		}
@@ -43,29 +43,27 @@ var loadState =
 		}		
 	},
 
-	onCreateCallback: function () 
-	{
-		loadingSprite = game.add.sprite(615,400,'loading');
-		loadingSprite.animations.add('loadBlink');
-		loadingBoardSprite = game.add.sprite(600,250,'loadingboard');
-		loadingBoardSprite.animations.add('loadBoard');
-		loadingSprite.animations.play('loadBlink',5,true);
-		loadingBoardSprite.animations.play('loadBoard',9,true);
-		
-		// var startLabel = game.add.text(470, 550, 'Presiona la tecla de espacio para empezar', {font: '20px RetroFont', fill: '#ffffff'});
-		// // Get space key to start game
-		// var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-
-		// // When the player presses the space key start the function
-		// spaceKey.onDown.addOnce(this.start, this);
-		
-	},
 
 	create: function ()
 	{
-		// loadingSprite.animations.play('loadBlink',5,false);
-		// loadingBoardSprite.animations.play('loadBoard',5,false);
-		// Call the start menu
+		// this.loading.animations.play('loadBlink',5,false);
+		// this.loadingboard.play('loadBoard',5,false);
+		//game.time.events.add(Phaser.Timer.SECOND * 2.0, function()
+		//		{
+		//this.loading.kill();
+		//this.loadingboard.kill();
+		//this.loading.destroy();
+		//this.loadingboard.destroy();
 		game.state.start('menu');
+		//this.start();
+
+		//		}, this); 
 	},
+
+
+	start: function()
+	{
+		// Call the start menu
+		this.state.start('menu');
+	}
 };
