@@ -114,4 +114,58 @@ function zeroPos(matrix)
 		return position;
 	}
 
+describe('Best Move', function()
+		{
+			describe('Finds best posible move', function()
+					{
+						it('should return the best move', function()
+								{
+									assert.ok([[0,1,2],[3,4,5],[6,7,8]],useBestMove([0,2],{'x': 0, 'y': 1}, [[1,0,2],[3,4,5],[6,7,8]], 1));
+								});
+					});
+		});
 
+function useBestMove(XYarray, zeroPos, matrix, heuristic)
+{
+	var moves;
+	while(XYarray.length > 0)
+	{
+		let tempXY = XYarray.pop();
+		let temp = matrix[zeroPos['x']][tempXY]
+		matrix[zeroPos['x']][zeroPos['y']] = temp;
+		matrix[zeroPos['x']][tempXY] = 0;
+		let newHeuristic = evaluation(matrix);
+		if(heuristic > newHeuristic)
+		{
+			return matrix;
+		}
+		else
+		{
+			if(XYarray.lenght == 1)
+				return matrix;
+			else
+			{
+				matrix[zeroPos['x']][zeroPos['y']] = 0;
+				matrix[zeroPos['x']][tempXY] = temp;
+			}
+
+		}
+	}
+}
+
+function evaluation(puzzle)
+{	
+	var goal = [[0,1,2],[3,4,5],[6,7,8]];
+		var heuristic = 0;
+		for(let i = 0; i < puzzle[0].length; i++)
+		{
+			for(let j = 0; j < puzzle.length; j++)
+			{
+				if(puzzle[i][j] != goal[i][j])
+				{
+					heuristic++;
+				}
+			}
+		}
+		return heuristic;
+}
