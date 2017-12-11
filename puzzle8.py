@@ -6,6 +6,9 @@ def puzzle(matrix, goal):
     xarray = []
     yarray = []
     counter = 0
+    with open('output.txt','w') as f:
+	print >> f, ''
+	
     while(matrix != goal):
         print matrix[0],'\n',matrix[1],'\n',matrix[2],'\n'
         counter+=1
