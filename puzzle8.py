@@ -7,12 +7,12 @@ def puzzle(matrix, goal):
     yarray = []
     counter = 0
     with open('output.txt','w') as f:
-	print >> f, ''
+        print >> f, 'el estado inicial es: \n', matrix[0],'\n',matrix[1],'\n',matrix[2],'\n'
+    history.append(matrix)
 	
     while(matrix != goal):
-        print matrix[0],'\n',matrix[1],'\n',matrix[2],'\n'
         counter+=1
-        if counter == 50:
+        if counter == 100:
             break
         heuristic = evaluation(matrix, goal)
         zeroPos = zeroPosition(matrix)
@@ -29,6 +29,8 @@ def puzzle(matrix, goal):
     	
         bestMoveX = useBestMove(xarray, zeroPos, matrix, heuristic, 'x', goal, history)
         bestMoveY = useBestMove(yarray, zeroPos, matrix, heuristic, 'y', goal, history)
+        with open('output.txt','a') as f:
+            print >> f, 'x: \t \t y:\n',bestMoveX[0],' ',bestMoveY[0],'\n',bestMoveX[1],' ',bestMoveY[1],'\n',bestMoveX[2],' ',bestMoveY[2],'\n'
 
         xHeuristic = evaluation(bestMoveX, goal)
         yHeuristic = evaluation(bestMoveY, goal)
@@ -40,14 +42,19 @@ def puzzle(matrix, goal):
             if(not inRecord(history,bestMoveY)):
                 matrix = bestMoveY
             else:
-                matrix = history[-1]
+                if not inRecord(history,bestMoveX):
+                    matrix = bestMoveX
+                else:
+                    matrix = history[-1]
+        with open('output.txt','a') as f:
+            print >> f, 'el movimiento elegido \n',matrix[0],'\n',matrix[1],'\n',matrix[2],'\n'
 
         history.append(matrix)
         if(len(history) > 30):
             history.pop()
 
-        with open('output.txt','a') as f:
-            print >> f, 'Move', '\n',matrix[0],'\n', matrix[1], ' \n', matrix[2], '\n'
+        # with open('output.txt','a') as f:
+        #     print >> f, 'Move', '\n',matrix[0],'\n', matrix[1], ' \n', matrix[2], '\n'
 
 def inRecord(recordHistory, puzzle):
     for record in recordHistory:
@@ -57,6 +64,7 @@ def inRecord(recordHistory, puzzle):
 
 def useBestMove(XYarray, zeroPos, passedmatrix, heuristic, XY, goal, history):
     matrix = deepcopy(passedmatrix)
+    movelist = []
     while(len(XYarray) > 0):
     	tempXY = XYarray.pop()
         if(XY == 'x'):
@@ -67,21 +75,23 @@ def useBestMove(XYarray, zeroPos, passedmatrix, heuristic, XY, goal, history):
             temp = matrix[zeroPos['x']][tempXY]
 	    matrix[zeroPos['x']][zeroPos['y']] = temp
 	    matrix[zeroPos['x']][tempXY] = 0
+        movelist.append(matrix)
+        
 		
-	newHeuristic = evaluation(matrix, goal)
-	if(heuristic > newHeuristic):
-            # if(not inRecord(history,matrix)):
-            return matrix
-	else:
-            if(len(XYarray) == 0):
-                return matrix
-	    else:
-                if(XY == 'x'):
-                    matrix[zeroPos['x']][zeroPos['y']] = 0
-                    matrix[tempXY][zeroPos['y']] = temp
-                else:
-                    matrix[zeroPos['x']][zeroPos['y']] = 0
-                    matrix[zeroPos['x']][tempXY] = temp
+	# newHeuristic = evaluation(matrix, goal)
+	# if(heuristic > newHeuristic):
+            # # if(not inRecord(history,matrix)):
+            # return matrix
+	# else:
+            # if(len(XYarray) == 0):
+                # return matrix
+	    # else:
+        if(XY == 'x'):
+            matrix[zeroPos['x']][zeroPos['y']] = 0
+            matrix[tempXY][zeroPos['y']] = temp
+        else:
+            matrix[zeroPos['x']][zeroPos['y']] = 0
+            matrix[zeroPos['x']][tempXY] = temp
 
 def evaluation(puzzle, goal):
 	heuristic = 0
@@ -110,7 +120,7 @@ def main():
     for i in range(0, 3):
         for j in range(0, 3):
             matrix[i][j] = array.pop()
-    #print 'la matriz: ',matrix,'\n'
+    print 'la matriz:\n',matrix[0],'\n',matrix[1],'\n',matrix[2],'\n'
     #print ('el goal: ',goal,'\n')
     puzzle(matrix,goal)
 
