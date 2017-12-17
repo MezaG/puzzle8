@@ -1,995 +1,2000 @@
 el estado inicial es: 
-[2, 7, 6] 
-[5, 0, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[2, 0, 6]   [2, 7, 6] 
-[5, 7, 1]   [0, 5, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[7, 6, 8] 
+[0, 1, 5] 
 
 el movimiento elegido 
-[2, 7, 6] 
-[0, 5, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[0, 7, 6]   [2, 7, 6] 
-[2, 5, 1]   [5, 0, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[0, 6, 8] 
+[7, 1, 5] 
 
 el movimiento elegido 
-[0, 7, 6] 
-[2, 5, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[2, 7, 6]   [7, 0, 6] 
-[0, 5, 1]   [2, 5, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[0, 2, 4] 
+[3, 6, 8] 
+[7, 1, 5] 
 
 el movimiento elegido 
-[7, 0, 6] 
-[2, 5, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[7, 5, 6]   [0, 7, 6] 
-[2, 0, 1]   [2, 5, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[0, 6, 8] 
+[7, 1, 5] 
 
 el movimiento elegido 
-[7, 5, 6] 
-[2, 0, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[7, 0, 6]   [7, 5, 6] 
-[2, 5, 1]   [0, 2, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[6, 0, 8] 
+[7, 1, 5] 
 
 el movimiento elegido 
-[7, 5, 6] 
-[0, 2, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[0, 5, 6]   [7, 5, 6] 
-[7, 2, 1]   [2, 0, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[6, 1, 8] 
+[7, 0, 5] 
 
 el movimiento elegido 
-[0, 5, 6] 
-[7, 2, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[7, 5, 6]   [5, 0, 6] 
-[0, 2, 1]   [7, 2, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[6, 1, 8] 
+[7, 5, 0] 
 
 el movimiento elegido 
-[5, 0, 6] 
-[7, 2, 1] 
-[8, 3, 4] 
-
-x: 	 	 y:
-[5, 2, 6]   [0, 5, 6] 
-[7, 0, 1]   [7, 2, 1] 
-[8, 3, 4]   [8, 3, 4] 
+[3, 2, 4] 
+[6, 1, 0] 
+[7, 5, 8] 
 
 el movimiento elegido 
-[5, 2, 6] 
+[3, 2, 4] 
+[6, 1, 8] 
+[7, 5, 0] 
+
+el movimiento elegido 
+[3, 2, 4] 
+[6, 1, 0] 
+[7, 5, 8] 
+
+el movimiento elegido 
+[3, 2, 4] 
+[6, 0, 1] 
+[7, 5, 8] 
+
+el movimiento elegido 
+[3, 2, 4] 
+[6, 5, 1] 
+[7, 0, 8] 
+
+el movimiento elegido 
+[3, 2, 4] 
+[6, 5, 1] 
+[7, 8, 0] 
+
+el movimiento elegido 
+[3, 2, 4] 
+[6, 5, 0] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 2, 0] 
+[6, 5, 4] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 0, 2] 
+[6, 5, 4] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 0, 4] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 4, 0] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 4, 1] 
+[7, 8, 0] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 4, 0] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 0] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 0, 5] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 0, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 0, 5] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 0] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 4, 0] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 0, 4] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 2] 
+[6, 4, 0] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 5, 0] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 0, 5] 
+[6, 4, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 0, 2] 
+[7, 8, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
 [7, 0, 1] 
-[8, 3, 4] 
 
-x: 	 	 y:
-[5, 0, 6]   [5, 2, 6] 
-[7, 2, 1]   [0, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
 el movimiento elegido 
-[5, 2, 6] 
-[0, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
-x: 	 	 y:
-[0, 2, 6]   [5, 2, 6] 
-[5, 7, 1]   [7, 0, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
 el movimiento elegido 
-[0, 2, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
-x: 	 	 y:
-[5, 2, 6]   [2, 0, 6] 
-[0, 7, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
+
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 0] 
+[7, 1, 2] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
-x: 	 	 y:
-[2, 7, 6]   [0, 2, 6] 
-[5, 0, 1]   [5, 7, 1] 
-[8, 3, 4]   [8, 3, 4] 
+el movimiento elegido 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 1, 0] 
 
 el movimiento elegido 
-[2, 0, 6] 
-[5, 7, 1] 
-[8, 3, 4] 
+[3, 4, 5] 
+[6, 8, 2] 
+[7, 0, 1] 
 
